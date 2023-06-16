@@ -1,0 +1,108 @@
+uuid: 1623826a-54d3-4c6e-8023-9d434748a607
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.employee_details.field_age
+    - field.field.node.employee_details.field_goals
+    - field.field.node.employee_details.field_key_characteristics
+    - field.field.node.employee_details.field_name
+    - field.field.node.employee_details.field_organisation
+    - field.field.node.employee_details.field_picture
+    - field.field.node.employee_details.field_salary
+    - field.field.node.employee_details.field_tech_skills
+    - field.field.node.employee_details.field_title
+    - node.type.employee_details
+  module:
+    - field_group
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+  field_group:
+    group_background:
+      children:
+        - field_age
+        - field_organisation
+        - field_salary
+      label: Background
+      parent_name: ''
+      region: content
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+id: node.employee_details.full
+targetEntityType: node
+bundle: employee_details
+mode: full
+content:
+  field_age:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_organisation:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_picture:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_salary:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_goals: true
+  field_key_characteristics: true
+  field_tech_skills: true

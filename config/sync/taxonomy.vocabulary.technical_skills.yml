@@ -1,0 +1,8 @@
+uuid: 99f11c8a-760a-42a8-b172-081d6e746128
+langcode: en
+status: true
+dependencies: {  }
+name: 'Technical skills'
+vid: technical_skills
+description: 'Technical skills of employees.'
+weight: 0

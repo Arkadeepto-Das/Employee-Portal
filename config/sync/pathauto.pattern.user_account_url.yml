@@ -1,0 +1,14 @@
+uuid: 7c2fa47b-c5e4-46fa-8f60-073c08db4e15
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_account_url
+label: 'User account url'
+type: 'canonical_entities:user'
+pattern: '/employees/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

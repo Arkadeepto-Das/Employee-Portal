@@ -1,0 +1,34 @@
+uuid: abf526d9-979f-409f-8786-6d78844f44db
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.edit
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+id: bartik_edit
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:edit'
+settings:
+  id: 'system_menu_block:edit'
+  label: Edit
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      content_editor: content_editor
+      administrator: administrator

@@ -1,0 +1,19 @@
+uuid: c66481cf-57d2-4d3a-b188-fe20fbdd9742
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_age
+    - paragraphs.paragraphs_type.background
+id: paragraph.background.field_age
+field_name: field_age
+entity_type: paragraph
+bundle: background
+label: Age
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

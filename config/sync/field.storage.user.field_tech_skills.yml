@@ -1,0 +1,20 @@
+uuid: 70a1ff4c-d555-46ea-8927-2cabfdbc2398
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - user
+id: user.field_tech_skills
+field_name: field_tech_skills
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

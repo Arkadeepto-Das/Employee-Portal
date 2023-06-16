@@ -1,0 +1,40 @@
+uuid: d34ecc79-b8d1-4f5c-9ab8-ba04e914dbad
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_age
+    - field.field.user.user.field_g
+    - field.field.user.user.field_key_characteristics
+    - field.field.user.user.field_name
+    - field.field.user.user.field_organisation
+    - field.field.user.user.field_salary
+    - field.field.user.user.field_tech_skills
+    - field.field.user.user.field_title
+    - field.field.user.user.user_picture
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  field_age: true
+  field_g: true
+  field_key_characteristics: true
+  field_name: true
+  field_organisation: true
+  field_salary: true
+  field_tech_skills: true
+  field_title: true
+  member_for: true
+  user_picture: true

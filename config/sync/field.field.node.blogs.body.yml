@@ -1,0 +1,23 @@
+uuid: c48f6d40-94b2-4f97-96db-29ca2f3acd97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.blogs
+  module:
+    - text
+id: node.blogs.body
+field_name: body
+entity_type: node
+bundle: blogs
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

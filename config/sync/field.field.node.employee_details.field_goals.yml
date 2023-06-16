@@ -1,0 +1,19 @@
+uuid: 60c3c233-9913-450a-9164-91118d7d5e73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_goals
+    - node.type.employee_details
+id: node.employee_details.field_goals
+field_name: field_goals
+entity_type: node
+bundle: employee_details
+label: Goals
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

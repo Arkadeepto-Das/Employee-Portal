@@ -1,0 +1,30 @@
+uuid: e415cf79-88e1-4c35-8f6d-898ca02752b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blogs_list
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__blogs_list_block_2
+theme: bootstrap5
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:blogs_list-block_2'
+settings:
+  id: 'views_block:blogs_list-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/home\r\n/blogs\r\n/blogs/*\r\n/employees\r\n/project/*"
