@@ -1,0 +1,28 @@
+uuid: af9d5e37-e578-4936-8707-1dec0e6ed5d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - system
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: Blogger
+weight: 2
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'create blogs content'
+  - 'delete own blogs content'
+  - 'edit own blogs content'
+  - 'edit own comments'
+  - 'view own unpublished content'

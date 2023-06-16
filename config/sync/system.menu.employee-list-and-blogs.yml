@@ -1,0 +1,8 @@
+uuid: f2fcddbf-9f2d-4124-ae6c-d642947c31b6
+langcode: en
+status: true
+dependencies: {  }
+id: employee-list-and-blogs
+label: 'Employee list and blogs'
+description: ''
+locked: false

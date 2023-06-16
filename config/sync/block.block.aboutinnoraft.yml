@@ -1,0 +1,25 @@
+uuid: d5bd8daf-5781-40f6-a27e-a2c0d68f6b95
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b5c0ff47-7522-40ad-b803-4c83c1d890b3'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: aboutinnoraft
+theme: bootstrap5
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:b5c0ff47-7522-40ad-b803-4c83c1d890b3'
+settings:
+  id: 'block_content:b5c0ff47-7522-40ad-b803-4c83c1d890b3'
+  label: 'About Innoraft'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: a8a210de-cc65-45bb-b851-655cb2291040
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_age
+field_name: field_age
+entity_type: paragraph
+type: string
+settings:
+  max_length: 15
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

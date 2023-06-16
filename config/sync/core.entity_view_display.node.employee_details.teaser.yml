@@ -1,0 +1,38 @@
+uuid: 0d952d26-f447-4fad-9ccb-04142aac3ff9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employee_details.field_age
+    - field.field.node.employee_details.field_goals
+    - field.field.node.employee_details.field_key_characteristics
+    - field.field.node.employee_details.field_name
+    - field.field.node.employee_details.field_organisation
+    - field.field.node.employee_details.field_picture
+    - field.field.node.employee_details.field_salary
+    - field.field.node.employee_details.field_tech_skills
+    - field.field.node.employee_details.field_title
+    - node.type.employee_details
+  module:
+    - user
+id: node.employee_details.teaser
+targetEntityType: node
+bundle: employee_details
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_age: true
+  field_goals: true
+  field_key_characteristics: true
+  field_name: true
+  field_organisation: true
+  field_picture: true
+  field_salary: true
+  field_tech_skills: true
+  field_title: true

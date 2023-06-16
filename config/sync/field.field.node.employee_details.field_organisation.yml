@@ -1,0 +1,19 @@
+uuid: cf841bd5-c991-46f0-94f8-376fc80ffcb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organisation
+    - node.type.employee_details
+id: node.employee_details.field_organisation
+field_name: field_organisation
+entity_type: node
+bundle: employee_details
+label: Organisation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

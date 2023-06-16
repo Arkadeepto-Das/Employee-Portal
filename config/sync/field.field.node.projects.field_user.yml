@@ -1,0 +1,29 @@
+uuid: 72aba5ff-1d7e-4b7d-80d3-aff5f3945b66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user
+    - node.type.projects
+id: node.projects.field_user
+field_name: field_user
+entity_type: node
+bundle: projects
+label: User
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: false
+field_type: entity_reference
