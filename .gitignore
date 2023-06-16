@@ -54,8 +54,8 @@
 /drupal.phar
 /drupal
 
-/web/modules/contrib/
-/web/themes/contrib/
+/web/modules/
+/web/themes/
 /web/profiles/contrib/
 /web/libraries/
 /web/private/scripts/quicksilver
